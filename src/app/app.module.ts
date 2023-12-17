@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { ListaEmpleadosComponent } from './components/lista-empleados/lista-empleados.component';
 import { EmpleadoComponent } from './components/empleado/empleado.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { CreateEmpleadoComponent } from './components/create-empleado/create-empleado.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListaEmpleadosComponent,
     EmpleadoComponent,
-    NavbarComponent
+    NavbarComponent,
+    CreateEmpleadoComponent
   ],
   imports: [
     BrowserModule,
